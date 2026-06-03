@@ -114,16 +114,16 @@
 
 .custom .sticks{
     position: absolute;
-    width: 116px;
-    height: 116px;
-    top: 304px;
-    left: 398px;
+    width: 143px;
+    height: 143px;
+    top: 290px;
+    left: 384px;
 }
 
 .custom .stick {
     position: absolute;
-    width: 116px;
-    height: 116px;
+    width: 143px;
+    height: 143px;
 }
 
 .custom .stick.left {
