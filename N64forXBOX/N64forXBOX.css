@@ -122,10 +122,9 @@
 
 .custom .stick {
     position: absolute;
-    width: 220px;
-    height: 220px;
-    transform: scale(1.3) !important;
-    transform-origin: center;
+    width: 130px;
+    height: 130px;
+    translate: -45px -45px;
 }
 
 .custom .stick.left {
