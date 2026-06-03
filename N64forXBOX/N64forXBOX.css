@@ -1,0 +1,131 @@
+.controller.custom{
+    position: absolute;
+    background-image: url(Base.png);
+    background-size: 100%;
+    height: 476px;
+    width: 912px;
+}
+
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .trigger-button{/* These are the actual triggers themselves */
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.custom .trigger-button.left.pressed{ 
+    background-image: url(z.png);
+}
+
+.custom .trigger-button.right.pressed{ 
+    background-image: url(start.png);
+}
+
+.custom .bumper {
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.custom .bumper.left.pressed {
+    background-image: url(l.png);
+}
+
+.custom .bumper.right.pressed {
+    background-image: url(r.png);
+}
+
+.custom .start, .custom .back {
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.custom .start.pressed {
+    background-image: url(a.png);
+}
+
+.custom .back.pressed {
+    background-image: url(b.png);
+}
+
+.custom .button {
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.custom .a.pressed {
+    background-image: url(c-down.png);
+}
+
+.custom .b.pressed {
+    background-image: url(c-right.png);
+}
+
+.custom .x.pressed {
+    background-image: url(c-left.png);
+}
+
+.custom .y.pressed {
+    background-image: url(c-up.png);
+}
+
+.custom .face {
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.custom .face.up.pressed {
+    background-image: url(dpad-up.png);
+}
+
+.custom .face.down.pressed {
+    background-image: url(dpad-down.png);
+}
+
+.custom .face.left.pressed {
+    background-image: url(dpad-left.png);
+}
+
+.custom .face.right.pressed {
+    background-image: url(dpad-right.png);
+}
+
+.custom .sticks{
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    top: 304px;
+    left: 398px;
+}
+
+.custom .stick {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+}
+
+.custom .stick.left {
+    background: url(stick.png);
+}
